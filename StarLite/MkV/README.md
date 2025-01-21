@@ -1,5 +1,5 @@
 
-#### coreboot: [24.06](https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.06/https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.06/24.06.rom) 2024-06-27
+#### coreboot: [24.06](https://support.starlabs.systems/kb/firmware/getting-started) 2024-06-27
 >     Fixed an issue which made the touchscreen intermittently stop responding
 >     Improved Bluetooth compatibility
 >     Decreased the delay on the power button when an OS is loaded
@@ -7,7 +7,7 @@
 >     Added an option to disable the lid switch
 
 
-#### coreboot: [24.07](https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.07/https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.07/24.07.rom) 2024-07-29
+#### coreboot: [24.07](https://support.starlabs.systems/kb/firmware/getting-started) 2024-07-29
 >     Adjust the charging frequency to improve stability
 >     Change the touchscreen IRQ to driver to improve stability
 >     Add an option to disable waking from suspend by opening the lid
@@ -27,7 +27,7 @@
 >     Improve the accuracy of the SOC
 
 
-#### coreboot: [24.08](https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.08/https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.08/24.08.rom) 2024-09-06
+#### coreboot: [24.08](https://support.starlabs.systems/kb/firmware/getting-started) 2024-09-06
 >     Add a new driver for WiFi
 >     Add a new driver for Bluetooth
 >     Adjust how the ROTM is reported
@@ -40,7 +40,7 @@
 >     Rebased on edk2/master
 
 
-#### coreboot: [24.09](https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.09/https://github.com/StarLabsLtd/firmware/raw/master/StarLite/MkV/coreboot/24.09/24.09.rom) 2024-10-17
+#### coreboot: [24.09](https://support.starlabs.systems/kb/firmware/getting-started) 2024-10-17
 >     General Updates:
 >     * Reworked performance profiles for race to idle
 >     * Added options to disable certain devices
@@ -66,5 +66,22 @@
 >     * [Byte Mk II] Fixed issue where DisplayPort monitors were not connected
 >     * [StarFighter Mk I] Fixed backslash key not working
 >     * [StarFighter Mk I] Fixed issue where certain charges wouldnt work
+>     
+
+
+#### coreboot: [24.10](https://support.starlabs.systems/kb/firmware/getting-started) 2024-11-14
+>     General Updates:
+>     * Further improve the Bluetooth driver for lower power consumption
+>     * Interpolate charging current relative to 25C
+>     * [Byte Mk II] Add more ACPI for the fTPM
+>     * [StarLite Mk V] Made it possible to lower the brightness of the power LED
+>     
+>     Security Updates:
+>     * Enroll a default set of keys for SecureBoot
+>     
+>     Bug Fixes/Enhancements:
+>     * [StarBook Mk VI] Fix an issue with DSD generation
+>     * [StarLite Mk V] Increase the reset delay for the touchscreen
+>     * Account for late OCM loading
 >     
 
